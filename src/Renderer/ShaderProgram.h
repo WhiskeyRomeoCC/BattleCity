@@ -3,8 +3,10 @@
 #include <glad/glad.h>
 #include <string>
 
-namespace Renderer {
-	class ShaderProgram {
+namespace Renderer 
+{
+	class ShaderProgram 
+	{
 	public:
 		ShaderProgram(const std::string& vertexShader, const std::string& fragmentShader);
 		~ShaderProgram();
